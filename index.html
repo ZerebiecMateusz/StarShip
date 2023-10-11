@@ -10,14 +10,14 @@
     <div class="container" data-container>
         <div class="spaceship" data-spaceship></div>
         <section class="information">
-            <article class="information_content">Score: 0</article>
-            <article class="information_content">Lives: 3</article>
+            <article class="information_content" data-score>Score: 0</article>
+            <article class="information_content" data-lives>Lives: 3</article>
         </section>
-        <!-- <div class="modal">
+        <div class="modal hide" data-modal>
             <div class="modal_content">
-                <p class="modal_text">You loose! Start new game</p>
-                <button class="modal_button">New Game</button>
-            </div> -->
+                <p class="modal__text" data-score-info>You loose! Start new game</p>
+                <button class="modal__button" data-button>New Game</button>
+            </div>
         </div>
     </div>
     <script type="module" src="./js/Game.js"></script>
